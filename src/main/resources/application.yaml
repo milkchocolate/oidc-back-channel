@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: oidc-back-channel
+  main:
+    web-application-type: none
+  security:
+    oauth2:
+      client:
+        registration:
+          demo-client:
+            client-id: 51l0v92uo6b9hs6tgsn1dm04uj
+            client-secret: 1jj69k938t7p4l79sugb11arm6onfkk7e9pdtnq1sibl9hrhl8mf
+            authorization-grant-type: client_credentials
+        provider:
+          demo-client:
+            token-uri: https://sso.test.marsladder.com.au/oauth2/token
